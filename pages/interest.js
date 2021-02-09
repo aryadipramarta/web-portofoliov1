@@ -2,10 +2,14 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import Footer from "../component/Footerr";
 import Navbar from "../component/Navbar";
+import Head from "next/head";
 
 function interest() {
   return (
     <>
+    <Head>
+     <title>Interest</title>
+    </Head>
       <Navbar />
       <section className="text-gray-700 body-font bg-gray-800">
         <div className="container px-8 mx-auto py-36 lg:px-4">
@@ -70,7 +74,7 @@ function interest() {
                 alt="content"
               ></img>
               <h2 className="mb-3 text-lg font-semibold text-blue-400 lg:text-2xl title-font text-center">
-                DATA SCIENTIST
+                DATA SCIENCE
               </h2>
               <p className="mb-4 text-base leading-relaxed text-white text-justify">
                 Love to learn everything about statistic , data visualization

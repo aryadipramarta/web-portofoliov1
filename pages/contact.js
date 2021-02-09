@@ -2,10 +2,14 @@ import Link from "next/link";
 import Footer from "../component/Footerr";
 import Navbar from "../component/Navbar";
 import { motion } from "framer-motion";
+import Head from "next/head"
 
 function contact() {
   return (
     <>
+    <Head>
+     <title>Contact</title>
+    </Head>
       <Navbar />
       <section className="text-gray-700 body-font bg-gray-800">
         <div className="container px-8 mx-auto pt-36 lg:px-4 h-96">

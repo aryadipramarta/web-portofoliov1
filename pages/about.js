@@ -2,10 +2,14 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import Footer from "../component/Footerr";
 import Navbar from "../component/Navbar";
+import Head from "next/head";
 
 function About() {
   return (
     <>
+    <Head>
+     <title>About</title>
+    </Head>
       <Navbar />
       <section className="text-white body-font  bg-gray-800">
         <div className="container flex flex-col items-center px-5 py-16 mx-auto lg:px-20 lg:py-24 md:flex-row">

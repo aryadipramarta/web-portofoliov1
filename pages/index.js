@@ -2,9 +2,14 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import Footer from "../component/Footerr";
 import Navbar from "../component/Navbar";
+import Head from "next/head";
+
 export default function Home() {
   return (
     <>
+    <Head>
+     <title>Home</title>
+    </Head>
       <motion.div
         initial={{
           opacity: 0,

@@ -2,10 +2,14 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import Footer from "../component/Footerr";
 import Navbar from "../component/Navbar";
+import Head from "next/head";
 
 function project() {
   return (
     <>
+    <Head>
+     <title>Project</title>
+    </Head>
       <Navbar />
       <section className="body-font bg-gray-800">
         <div className="container px-8 mx-auto py-36 lg:px-4">
