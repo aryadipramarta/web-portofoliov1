@@ -7,9 +7,9 @@ import Head from "next/head";
 export default function Home() {
   return (
     <>
-    <Head>
-     <title>Home</title>
-    </Head>
+      <Head>
+        <title>Home</title>
+      </Head>
       <motion.div
         initial={{
           opacity: 0,
@@ -33,20 +33,28 @@ export default function Home() {
               <h1 className="mb-8 text-blue-400 text-center tracking-tighter text-6xl">
                 I'm <b>Aryadi</b> Pramarta
               </h1>
-              
+
               <p className="mb-8 text-2xl leading-relaxed text-center lg:text-left lg:text-1xl text-blue-400">
-                Mobile Application Developer and Data Scientist
+                ML/AI Enthusiast and Data Enthusiast
               </p>
-                 <p className="mb-8 mt text-base leading-relaxed text-center text-white lg:text-left lg:text-1xl">
-                I'm a Mobile Application Developer and Data Scientist based in
-                Bandung, Indonesia specializing in building and sometimes
-                designing high quality application and analyst data with machine
-                learning
+              <p className="mb-8 mt text-base leading-relaxed text-center text-white lg:text-left lg:text-1xl">
+                I'm an ML/AI Enthusiast and Data Enthusiast based in Bandung,
+                Indonesia. I'm very interested in Machine Learning and
+                Artificial Intelligence implementation. Creating a data
+                visualization, get insight from the data, analyzing data, and
+                curious about <b>Data Science</b>. I hope that I can be a good
+                <b>Data Scientist</b> or <b>Data Analyst</b> or{" "}
+                <b>ML engineer</b>
               </p>
               <div className="flex justify-center">
-                <button class="mt-4 bg-transparent hover:bg-gray-600 text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded">
-                  See My CV
-                </button>
+                <Link
+                  href="https://drive.google.com/file/d/1-XFqNFFr7lFluWkimm7e3qBq0k22TiP2/view?usp=sharing"
+                  passHref={true}
+                >
+                  <button class="mt-4 bg-transparent hover:bg-gray-600 text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded">
+                    See My CV
+                  </button>
+                </Link>
               </div>
             </div>
             <div className="w-5/6 lg:max-w-lg lg:w-full md:w-1/2">

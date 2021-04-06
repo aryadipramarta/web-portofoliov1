@@ -7,9 +7,9 @@ import Head from "next/head";
 function About() {
   return (
     <>
-    <Head>
-     <title>About</title>
-    </Head>
+      <Head>
+        <title>About</title>
+      </Head>
       <Navbar />
       <section className="text-white body-font  bg-gray-800">
         <div className="container flex flex-col items-center px-5 py-16 mx-auto lg:px-20 lg:py-24 md:flex-row">
@@ -62,17 +62,17 @@ function About() {
               }}
             >
               <p className="mb-8 text-base leading-relaxed text-center text-white lg:text-left lg:text-1xl">
-                Hello, I'm Aryadi , a <i>mobile application developer</i> and{" "}
-                <i>data scientist</i> based in Bandung , Indonesia I like to
-                analyst data and visualisation data and implemented machine
-                learning to solve problem
+                Hello, I'm Aryadi , a <i>Machine Learning Enthusiast </i> and{" "}
+                <i>Data Enthusiast </i> based in Bandung , Indonesia I like to
+                analyst data , visualisation data , finding insight from data
+                and implemented machine learning to solve problem and predict
+                from the data
               </p>
               <p className="mb-8 text-base leading-relaxed text-center text-white lg:text-left lg:text-1xl">
                 Im from <i>Telkom University</i>. I have good skill in critical
-                thinking and problem solving. I love to learn something new.
-                Proficient in developing a mobile application , creating user
-                interface, writing and testing code, and troubleshooting in
-                program
+                thinking and problem solving. I love to learn something new. I'm
+                an adaptable person. I'm person that Intellectual curiosity and
+                have a good business acumen
               </p>
             </motion.div>
           </div>

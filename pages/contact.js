@@ -2,14 +2,14 @@ import Link from "next/link";
 import Footer from "../component/Footerr";
 import Navbar from "../component/Navbar";
 import { motion } from "framer-motion";
-import Head from "next/head"
+import Head from "next/head";
 
 function contact() {
   return (
     <>
-    <Head>
-     <title>Contact</title>
-    </Head>
+      <Head>
+        <title>Contact</title>
+      </Head>
       <Navbar />
       <section className="text-gray-700 body-font bg-gray-800">
         <div className="container px-8 mx-auto pt-36 lg:px-4 h-96">
@@ -46,37 +46,40 @@ function contact() {
             </motion.div>
           </div>
           <motion.div
-              initial={{
-                opacity: 0,
-              }}
-              animate={{
-                opacity: 1,
-              }}
-              transition={{
-                duration: 1,
-              }}
-            >
-          <div className="flex justify-center">
-            <a href="">
-              <button class="mt-3 py-3 px-3 text-white transition duration-500 ease-in-out bg-blue-400 hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110 rounded">
-                Email : aryadipramarta9@gmail.com
-              </button>
-            </a>
-          </div>
-          <div className="flex justify-center mt-3">
-            <a href="www.facebook.com">
-              <button class="py-3 px-3 text-white transition duration-500 ease-in-out bg-blue-400 hover:bg-gray-400 transform hover:-translate-y-1 hover:scale-110 rounded">
-                Github : aryadipramarta
-              </button>
-            </a>
-          </div>
-          <div className="flex justify-center mt-3">
-            <a href="">
-              <button class="py-3 px-3 text-white transition duration-500 ease-in-out bg-blue-400 hover:bg-blue-600 transform hover:-translate-y-1 hover:scale-110 rounded">
-                Linkedin : I Komang Gede Aryadi Pramarta
-              </button>
-            </a>
-          </div>
+            initial={{
+              opacity: 0,
+            }}
+            animate={{
+              opacity: 1,
+            }}
+            transition={{
+              duration: 1,
+            }}
+          >
+            <div className="flex justify-center">
+              <a href="">
+                <button class="mt-3 py-3 px-3 text-white transition duration-500 ease-in-out bg-blue-400 hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110 rounded">
+                  Email : aryadipramarta9@gmail.com
+                </button>
+              </a>
+            </div>
+            <div className="flex justify-center mt-3">
+              <Link href="github.com/aryadipramarta" passHref={true}>
+                <button class="py-3 px-3 text-white transition duration-500 ease-in-out bg-blue-400 hover:bg-gray-400 transform hover:-translate-y-1 hover:scale-110 rounded">
+                  Github : aryadipramarta
+                </button>
+              </Link>
+            </div>
+            <div className="flex justify-center mt-3">
+              <Link
+                href="https://www.linkedin.com/in/i-komang-gede-aryadi-pramarta-a9b6581aa/"
+                passHref={true}
+              >
+                <button class="py-3 px-3 text-white transition duration-500 ease-in-out bg-blue-400 hover:bg-blue-600 transform hover:-translate-y-1 hover:scale-110 rounded">
+                  Linkedin : I Komang Gede Aryadi Pramarta
+                </button>
+              </Link>
+            </div>
           </motion.div>
         </div>
       </section>
