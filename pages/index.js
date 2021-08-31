@@ -33,18 +33,19 @@ export default function Home() {
               <h1 className="mb-8 text-blue-400 text-center tracking-tighter text-6xl">
                 I'm <b>Aryadi</b> Pramarta
               </h1>
-
               <p className="mb-8 text-2xl leading-relaxed text-center lg:text-left lg:text-1xl text-blue-400">
-                ML/AI Enthusiast and Data Enthusiast
+                Data Enthusiast
               </p>
               <p className="mb-8 mt text-base leading-relaxed text-center text-white lg:text-left lg:text-1xl">
-                I'm an ML/AI Enthusiast and Data Enthusiast based in Bandung,
-                Indonesia. I'm very interested in Machine Learning and
-                Artificial Intelligence implementation. Creating a data
-                visualization, get insight from the data, analyzing data, and
-                curious about <b>Data Science</b>. I hope that I can be a good
-                <b>Data Scientist</b> or <b>Data Analyst</b> or{" "}
-                <b>ML engineer</b>
+                Insightful Computer Science student who have a strong knowledge
+                at Python and Machine Learning. Have a good skill in problem
+                solving and critical thinking. Very adaptable person, fast
+                learner and always wanted to learn something new. Great at time
+                management, every task has been scheduled properly. Experienced
+                using google analytics session data, gaining insights using SQL
+                and Python, and self-service automation using Tableau. Seeking
+                to leverage data analytical skills to improve corporate
+                performance as a data analyst.
               </p>
               <div className="flex justify-center">
                 <Link
