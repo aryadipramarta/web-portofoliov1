@@ -64,7 +64,7 @@ function contact() {
               </a>
             </div>
             <div className="flex justify-center mt-3">
-              <Link href="github.com/aryadipramarta" passHref={true}>
+              <Link href="https://github.com/aryadipramarta" passHref={true}>
                 <button class="py-3 px-3 text-white transition duration-500 ease-in-out bg-blue-400 hover:bg-gray-400 transform hover:-translate-y-1 hover:scale-110 rounded">
                   Github : aryadipramarta
                 </button>

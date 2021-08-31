@@ -7,9 +7,9 @@ import Head from "next/head";
 function project() {
   return (
     <>
-    <Head>
-     <title>Project</title>
-    </Head>
+      <Head>
+        <title>Project</title>
+      </Head>
       <Navbar />
       <section className="body-font bg-gray-800">
         <div className="container px-8 mx-auto py-36 lg:px-4">
@@ -48,16 +48,21 @@ function project() {
                 ></img>
                 <h2 className="mb-3 text-lg font-semibold text-blue-400 lg:text-2xl title-font">
                   {" "}
-                  K-Fold Cross Validation
+                  Sentiment Analysis Tweet For COVID19 Vaccine
                 </h2>
                 <p className="mb-4 text-base leading-relaxed text-white">
-                  Implementation and create algorithm about K-Fold Cross
-                  Validation to predict with Pima Indians Diabetes Datasets{" "}
+                  Create an analysis classify for a tweet that talking about the
+                  COVID19 Vaccine in Indonesia
                 </p>
                 <div className="flex justify-center">
-                  <button className="flex items-center px-4 py-2 mt-auto font-semibold text-white transition duration-500 ease-in-out transform rounded-lg shadow-xl bg-gradient-to-r from-blue-700 hover:from-blue-600 to-blue-600 hover:to-blue-700 hover:-translate-y-1 hover:scale-110 focus:ring focus:outline-none">
-                    Link Github
-                  </button>
+                  <Link
+                    href="https://github.com/aryadipramarta/Sentiment-Analysis-Twitter-Classification"
+                    passHref={true}
+                  >
+                    <button className="flex items-center px-4 py-2 mt-auto font-semibold text-white transition duration-500 ease-in-out transform rounded-lg shadow-xl bg-gradient-to-r from-blue-700 hover:from-blue-600 to-blue-600 hover:to-blue-700 hover:-translate-y-1 hover:scale-110 focus:ring focus:outline-none">
+                      Link Github
+                    </button>
+                  </Link>
                 </div>
               </motion.div>
             </div>
@@ -81,17 +86,21 @@ function project() {
                 ></img>
                 <h2 className="mb-3 text-lg font-semibold text-blue-400 lg:text-2xl title-font">
                   {" "}
-                  Covid19-Simulation
+                  Image Classification for Rock , Paper , Scissors
                 </h2>
                 <p className="mb-4 text-base leading-relaxed text-white">
-                  Create simulation of the movement of human mobility with some
-                  rules of probability and their effect with the surrounding
-                  circle
+                  Classification images from uploading image with implementation
+                  CNN algorithm
                 </p>
                 <div className="flex justify-center">
-                  <button className="flex items-center px-4 py-2 mt-auto font-semibold text-white transition duration-500 ease-in-out transform rounded-lg shadow-xl bg-gradient-to-r from-blue-700 hover:from-blue-600 to-blue-600 hover:to-blue-700 hover:-translate-y-1 hover:scale-110 focus:ring focus:outline-none">
-                    Link Github
-                  </button>
+                  <Link
+                    href="https://github.com/aryadipramarta/Image-Classification-using-CNN-"
+                    passHref={true}
+                  >
+                    <button className="flex items-center px-4 py-2 mt-auto font-semibold text-white transition duration-500 ease-in-out transform rounded-lg shadow-xl bg-gradient-to-r from-blue-700 hover:from-blue-600 to-blue-600 hover:to-blue-700 hover:-translate-y-1 hover:scale-110 focus:ring focus:outline-none">
+                      Link Github
+                    </button>
+                  </Link>
                 </div>
               </motion.div>
             </div>
@@ -114,17 +123,21 @@ function project() {
                 ></img>
                 <h2 className="mb-3 text-lg font-semibold text-blue-400 lg:text-2xl title-font">
                   {" "}
-                  E-Learning System with Java
+                  Amazon Top 50 Bestselling Books 2009 - 2019
                 </h2>
                 <p className="mb-4 text-base leading-relaxed text-white">
-                  Create E-Learning System for student and teacher that can
-                  choose and see their class with some functionality to create ,
-                  read , update and delete
+                  Create data visualisation from dataset Amazon Top 50
+                  Bestselling Books 2009 - 2019
                 </p>
                 <div className="flex justify-center">
-                  <button className="flex items-center px-4 py-2 mt-auto font-semibold text-white transition duration-500 ease-in-out transform rounded-lg shadow-xl bg-gradient-to-r from-blue-700 hover:from-blue-600 to-blue-600 hover:to-blue-700 hover:-translate-y-1 hover:scale-110 focus:ring focus:outline-none">
-                    Link Github
-                  </button>
+                  <Link
+                    href="https://github.com/aryadipramarta/Data-Visualisation-Amazon-Top-50-Bestselling-Books-2009---2019"
+                    passHref={true}
+                  >
+                    <button className="flex items-center px-4 py-2 mt-auto font-semibold text-white transition duration-500 ease-in-out transform rounded-lg shadow-xl bg-gradient-to-r from-blue-700 hover:from-blue-600 to-blue-600 hover:to-blue-700 hover:-translate-y-1 hover:scale-110 focus:ring focus:outline-none">
+                      Link Github
+                    </button>
+                  </Link>
                 </div>
               </motion.div>
             </div>

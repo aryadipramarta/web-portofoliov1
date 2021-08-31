@@ -43,17 +43,17 @@ export default function Home() {
                 <b> critical thinking </b>. Great at <b> time management </b>,
                 every task has been scheduled properly. Experienced using{" "}
                 <b> google analytics </b> session data, gaining insights using
-                <b> SQL </b> and <b> Python </b>, and self-service automation
-                using <b> Tableau </b>. Seeking to leverage data analytical
-                skills to improve corporate performance as a data analyst.
+                <b> SQL </b> and <b> Python </b>, and using <b> Tableau </b>.
+                Seeking to leverage data analytical skills to improve corporate
+                performance as a data analyst.
               </p>
               <div className="flex justify-center">
                 <Link
-                  href="https://drive.google.com/file/d/1-XFqNFFr7lFluWkimm7e3qBq0k22TiP2/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1X0xCrbq-Su6p19gvx6AOGol6EpwUAcWJ/view?usp=sharing"
                   passHref={true}
                 >
                   <button class="mt-4 bg-transparent hover:bg-gray-600 text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded">
-                    See My CV
+                    My CV
                   </button>
                 </Link>
               </div>
