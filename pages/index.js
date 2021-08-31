@@ -37,21 +37,24 @@ export default function Home() {
                 Data Enthusiast
               </p>
               <p className="mb-8 mt text-base leading-relaxed text-center text-white lg:text-left lg:text-1xl">
-                Insightful Computer Science student who have a strong knowledge
-                at Python and Machine Learning. Have a good skill in problem
-                solving and critical thinking. Very adaptable person, fast
-                learner and always wanted to learn something new. Great at time
-                management, every task has been scheduled properly. Experienced
-                using google analytics session data, gaining insights using SQL
-                and Python, and self-service automation using Tableau. Seeking
-                to leverage data analytical skills to improve corporate
-                performance as a data analyst.
+                Insightful <b> Computer Science </b> student who have a strong
+                knowledge at <b> Python </b> and <b> Machine Learning </b>. Have
+                a good skill in <b> problem solving </b> and{" "}
+                <b> critical thinking </b>. Great at <b> time management </b>,
+                every task has been scheduled properly. Experienced using{" "}
+                <b> google analytics </b> session data, gaining insights using
+                <b> SQL </b> and <b> Python </b>, and self-service automation
+                using <b> Tableau </b>. Seeking to leverage data analytical
+                skills to improve corporate performance as a data analyst.
               </p>
               <div className="flex justify-center">
                 <Link
                   href="https://drive.google.com/file/d/1-XFqNFFr7lFluWkimm7e3qBq0k22TiP2/view?usp=sharing"
                   passHref={true}
                 >
+                  <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                    Button
+                  </button>
                   <button class="mt-4 bg-transparent hover:bg-gray-600 text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded">
                     See My CV
                   </button>
