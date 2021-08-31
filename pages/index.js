@@ -52,9 +52,6 @@ export default function Home() {
                   href="https://drive.google.com/file/d/1-XFqNFFr7lFluWkimm7e3qBq0k22TiP2/view?usp=sharing"
                   passHref={true}
                 >
-                  <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-                    Button
-                  </button>
                   <button class="mt-4 bg-transparent hover:bg-gray-600 text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded">
                     See My CV
                   </button>

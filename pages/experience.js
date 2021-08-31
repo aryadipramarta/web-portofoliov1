@@ -8,7 +8,7 @@ function About() {
   return (
     <>
       <Head>
-        <title>About</title>
+        <title>Experience</title>
       </Head>
       <Navbar />
       <section className="text-white body-font  bg-gray-800">
@@ -47,7 +47,7 @@ function About() {
               }}
             >
               <h2 className="mb-1 text-5xl font-medium tracking-widest text-blue-400 title-font">
-                ABOUT ME
+                Experience
               </h2>
             </motion.div>
             <motion.div
