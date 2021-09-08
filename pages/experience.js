@@ -43,15 +43,15 @@ function About() {
               >
                 <img
                   className="object-cover object-center w-full h-40 mb-6 rounded"
-                  src="/recsystem.jpeg"
+                  src="/cimbniaga.png"
                   alt="content"
                 ></img>
                 <h2 className="mb-3 text-lg font-semibold text-blue-400 lg:text-2xl title-font text-center">
                   DATA ANALYST
                 </h2>
                 <p className="mb-4 text-base leading-relaxed text-white text-justify">
-                  Interest in building recommender system to give a suggestion
-                  item to customer or user based on the item or user preferences
+                  Helping and exploring data from database to make a decision
+                  and campaign that give impact to the company
                 </p>
               </motion.div>
             </div>
@@ -69,15 +69,16 @@ function About() {
               >
                 <img
                   className="object-cover object-center w-full h-40 mb-6 rounded"
-                  src="/datascience.png"
+                  src="/diskominfoslogo.png"
                   alt="content"
                 ></img>
                 <h2 className="mb-3 text-lg font-semibold text-blue-400 lg:text-2xl title-font text-center">
-                  FULL STACK PROGRAMMER & DATA ANALYST
+                  FULL STACK PROGRAMMER
                 </h2>
                 <p className="mb-4 text-base leading-relaxed text-white text-justify">
-                  Love to learn everything about statistic , data visualization
-                  and have a good skill in python and R programming language
+                  Help ini creating a System Information Management Asset, Doing
+                  an analysis of existing data on database and the business
+                  process
                 </p>
               </motion.div>
             </div>
@@ -95,16 +96,16 @@ function About() {
               >
                 <img
                   className="object-cover object-center w-full h-40 mb-6 rounded"
-                  src="/machinelearning.png"
+                  src="/telkomlogo.png"
                   alt="content"
                 ></img>
                 <h2 className="mb-3 text-lg font-semibold text-blue-400 lg:text-2xl title-font text-center">
                   PRACTICUM ASSISTANT LABORATORY
                 </h2>
                 <p className="mb-4 text-base leading-relaxed text-white text-justify">
-                  Interest with everything that provides system the ability to
-                  automatically learn and improve from experience without being
-                  explicitly programmed
+                  Teach students to understand about the operating system, Give
+                  an assignment to the student and Help Lecturer to grade
+                  student practicum modules
                 </p>
               </motion.div>
             </div>
