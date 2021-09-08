@@ -42,7 +42,7 @@ function About() {
                 }}
               >
                 <img
-                  className="object-cover object-center w-full h-40 mb-6 rounded"
+                  className="object-cover object-center w-full h-80 mb-6 rounded"
                   src="/cimbniaga.png"
                   alt="content"
                 ></img>
@@ -68,7 +68,7 @@ function About() {
                 }}
               >
                 <img
-                  className="object-cover object-center w-full h-40 mb-6 rounded"
+                  className="object-cover object-center w-full h-80 mb-6 rounded"
                   src="/diskominfoslogo.png"
                   alt="content"
                 ></img>
@@ -95,7 +95,7 @@ function About() {
                 }}
               >
                 <img
-                  className="object-cover object-center w-full h-40 mb-6 rounded"
+                  className="object-cover object-center w-full h-80 mb-6 rounded"
                   src="/telkomlogo.png"
                   alt="content"
                 ></img>
