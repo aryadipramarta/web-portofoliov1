@@ -11,70 +11,103 @@ function About() {
         <title>Experience</title>
       </Head>
       <Navbar />
-      <section className="text-white body-font  bg-gray-800">
-        <div className="container flex flex-col items-center px-5 py-16 mx-auto lg:px-20 lg:py-24 md:flex-row">
+      <section className="text-gray-700 body-font bg-gray-800">
+        <div className="container px-8 mx-auto py-36 lg:px-4">
           <motion.div
             initial={{
-              opacity: 0,
-              y: 100,
+              y: -100,
             }}
             animate={{
-              opacity: 1,
               y: 0,
             }}
             transition={{
-              duration: 1.5,
+              duration: 0.6,
             }}
           >
-            <div className="w-5/6 mb-10 lg:max-w-lg lg:w-full md:w-1/2 md:mb-0">
-              <img
-                className="object-cover object-center rounded shadow-2xl"
-                alt="hero"
-                src="/tesfoto1.png"
-              ></img>
-            </div>
+            <h2 className="mb-1 text-5xl font-medium tracking-widest text-blue-400 title-font text-center">
+              EXPERIENCE
+            </h2>
           </motion.div>
-          <div className="flex flex-col items-center text-center lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 md:items-start md:text-left space-y-2">
-            <motion.div
-              initial={{
-                opacity: 0,
-              }}
-              animate={{
-                opacity: 1,
-              }}
-              transition={{
-                duration: 1,
-              }}
-            >
-              <h2 className="mb-1 text-5xl font-medium tracking-widest text-blue-400 title-font">
-                Experience
-              </h2>
-            </motion.div>
-            <motion.div
-              initial={{
-                opacity: 0,
-              }}
-              animate={{
-                opacity: 1,
-              }}
-              transition={{
-                duration: 1.5,
-              }}
-            >
-              <p className="mb-8 text-base leading-relaxed text-center text-white lg:text-left lg:text-1xl">
-                Hello, I'm Aryadi , a <i>Machine Learning Enthusiast </i> and{" "}
-                <i>Data Enthusiast </i> based in Bandung , Indonesia I like to
-                analyst data , visualisation data , finding insight from data
-                and implemented machine learning to solve problem and predict
-                from the data
-              </p>
-              <p className="mb-8 text-base leading-relaxed text-center text-white lg:text-left lg:text-1xl">
-                Im from <i>Telkom University</i>. I have good skill in critical
-                thinking and problem solving. I love to learn something new. I'm
-                an adaptable person. I'm person that Intellectual curiosity and
-                have a good business acumen
-              </p>
-            </motion.div>
+          <div className="flex flex-wrap text-left divide-x divide-blue-400">
+            <div className="px-8 py-6 lg:w-1/3 md:w-full">
+              <motion.div
+                initial={{
+                  opacity: 0,
+                }}
+                animate={{
+                  opacity: 1,
+                }}
+                transition={{
+                  duration: 1.5,
+                }}
+              >
+                <img
+                  className="object-cover object-center w-full h-40 mb-6 rounded"
+                  src="/recsystem.jpeg"
+                  alt="content"
+                ></img>
+                <h2 className="mb-3 text-lg font-semibold text-blue-400 lg:text-2xl title-font text-center">
+                  DATA ANALYST
+                </h2>
+                <p className="mb-4 text-base leading-relaxed text-white text-justify">
+                  Interest in building recommender system to give a suggestion
+                  item to customer or user based on the item or user preferences
+                </p>
+              </motion.div>
+            </div>
+            <div className="px-8 py-6 lg:w-1/3 md:w-full">
+              <motion.div
+                initial={{
+                  opacity: 0,
+                }}
+                animate={{
+                  opacity: 1,
+                }}
+                transition={{
+                  duration: 2,
+                }}
+              >
+                <img
+                  className="object-cover object-center w-full h-40 mb-6 rounded"
+                  src="/datascience.png"
+                  alt="content"
+                ></img>
+                <h2 className="mb-3 text-lg font-semibold text-blue-400 lg:text-2xl title-font text-center">
+                  FULL STACK PROGRAMMER & DATA ANALYST
+                </h2>
+                <p className="mb-4 text-base leading-relaxed text-white text-justify">
+                  Love to learn everything about statistic , data visualization
+                  and have a good skill in python and R programming language
+                </p>
+              </motion.div>
+            </div>
+            <div className="px-8 py-6 lg:w-1/3 md:w-full">
+              <motion.div
+                initial={{
+                  opacity: 0,
+                }}
+                animate={{
+                  opacity: 1,
+                }}
+                transition={{
+                  duration: 2.5,
+                }}
+              >
+                <img
+                  className="object-cover object-center w-full h-40 mb-6 rounded"
+                  src="/machinelearning.png"
+                  alt="content"
+                ></img>
+                <h2 className="mb-3 text-lg font-semibold text-blue-400 lg:text-2xl title-font text-center">
+                  PRACTICUM ASSISTANT LABORATORY
+                </h2>
+                <p className="mb-4 text-base leading-relaxed text-white text-justify">
+                  Interest with everything that provides system the ability to
+                  automatically learn and improve from experience without being
+                  explicitly programmed
+                </p>
+              </motion.div>
+            </div>
           </div>
         </div>
       </section>
