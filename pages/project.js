@@ -9,6 +9,11 @@ function project() {
     <>
       <Head>
         <title>Project</title>
+        <meta name="description" content="Portfolio Aryadi Pramarta" />
+        <meta
+          property="og:title"
+          content="Project - Portfolio Aryadi Pramarta"
+        />
       </Head>
       <Navbar />
       <section className="body-font bg-gray-800">

@@ -9,6 +9,8 @@ export default function Home() {
     <>
       <Head>
         <title>Home</title>
+        <meta name="description" content="Portfolio Aryadi Pramarta" />
+        <meta property="og:title" content="Aryadi Pramarta Portfolio" />
       </Head>
       <motion.div
         initial={{

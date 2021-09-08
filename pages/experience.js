@@ -9,6 +9,11 @@ function About() {
     <>
       <Head>
         <title>Experience</title>
+        <meta name="description" content="Portfolio Aryadi Pramarta" />
+        <meta
+          property="og:title"
+          content="Experience - Portfolio Aryadi Pramarta"
+        />
       </Head>
       <Navbar />
       <section className="text-gray-700 body-font bg-gray-800">

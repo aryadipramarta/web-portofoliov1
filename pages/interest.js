@@ -9,6 +9,11 @@ function interest() {
     <>
       <Head>
         <title>Interest</title>
+        <meta name="description" content="Portfolio Aryadi Pramarta" />
+        <meta
+          property="og:title"
+          content="Interest - Portfolio Aryadi Pramarta"
+        />
       </Head>
       <Navbar />
       <section className="text-gray-700 body-font bg-gray-800">
